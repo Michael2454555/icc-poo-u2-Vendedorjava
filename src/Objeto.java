@@ -53,7 +53,7 @@ public void invVendedor(List<Item> inventario, List<Integer> cantidad) {
                 return;
             }
 
-// En Objeto.java y Arma.java (métodos invVendedor e invLeon)
+
 System.out.println(" " + 
     "|".repeat(Math.min(dano, 6)) + "-".repeat(Math.max(0, 6 - dano)) + " " +
     "|".repeat(Math.min(velRecarga, 3)) + "-".repeat(Math.max(0, 3 - velRecarga)) + " " +
