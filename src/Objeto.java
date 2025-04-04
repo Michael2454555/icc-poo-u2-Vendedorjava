@@ -1,12 +1,12 @@
 import java.util.*;
 
-// Interfaz que representa un ítem en el juego
+
 interface Item {
     void invVendedor(List<Item> inventario, List<Integer> cantidad);
     void invLeon(List<Item> inventario, List<Integer> cantidad);
 }
 
-// Clase Objeto: implementación básica de un item
+
 class Objeto implements Item {
     int dano;
     int velRecarga;
